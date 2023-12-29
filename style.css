@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+#main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5vmin;
+}
+
+.div1{
+    margin-bottom: 2vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vmin;
+}
+
+h1{
+    font-size: 10vmin;
+}
+
+.msg{
+    font-size: 8vmin;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    height: 60vmin;
+    width: 60vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 10vmin;
+    color: brown;
+}
+
+#new, #reset{
+    font-size: 16px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none !important;
+}
+
+/* @media screen and (max-width: 1180px  ) {
+    .box{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 1080px  ) {
+    .box{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 800px  ) {
+    .box{
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+    }
+    .msg{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px  ) {
+    .box{
+        height: 25px;
+        width: 25px;
+        font-size: 15px;
+    }
+    .msg{
+        font-size: 20px;
+    }
+} */
